@@ -1,0 +1,1 @@
+Place in this folder the selenium-server-standalone jar to use if you need.

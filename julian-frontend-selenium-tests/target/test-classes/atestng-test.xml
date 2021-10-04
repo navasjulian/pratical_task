@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+~  The copyright of this file belongs to Meetrics. The file cannot be
+~  reproduced in whole or in part, stored in a retrieval system, transmitted
+~  in any form, or by any means electronic, mechanical, or otherwise, without
+~  the prior permission of the owner. Please refer to the terms of the license
+~  agreement.
+~
+~ (c) 2016 Meetrics, Rights Reserved.
+-->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Adam Frontend Selenium Tests" verbose="5" data-provider-thread-count="1"  parallel="tests" thread-count="6">
+  <test name="Export Panel Firefox Ubuntu">
+    <parameter name="browserName" value="firefox"/>
+    <parameter name="platformName" value="linux"/>
+    <parameter name="browserVersion" value=""/>
+    <packages>
+      <package name="meetrics.pages.export" />
+    </packages>
+  </test>
+  <test name="Export Panel Chrome Windows10">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="platformName" value="win10"/>
+    <parameter name="browserVersion" value=""/>
+    <packages>
+      <package name="meetrics.pages.export" />
+    </packages>
+  </test>
+</suite>
