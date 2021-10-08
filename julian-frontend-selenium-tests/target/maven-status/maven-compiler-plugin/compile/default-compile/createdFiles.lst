@@ -1,5 +1,0 @@
-example/util/StringConstants.class
-example/page/Page.class
-example/util/Browser.class
-refactor/webdriver/WebDriverFactory.class
-example/util/PropertyLoader.class
